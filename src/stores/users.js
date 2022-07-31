@@ -22,6 +22,7 @@ export const useUserStore = defineStore('users', {
                     }
                 })
                 .then(function (response) {
+                    console.log(response)
                     localStorage.setItem('token', response.data.access_token);
                 })
                 .catch(function (error) {
