@@ -1,0 +1,9 @@
+{
+	"PostID": 1,
+	"UserID" : "auth0|62deb437aca3e64c0a51d29e",
+	"ImgUrl" : "www.examplepic.com/test.jpeg",
+	"PostContent" : "This is  a test post",
+	"NameOfOwner" : "Ronan Lewsley",
+	"OwnerOrganisation" : "UUJ"
+	
+}

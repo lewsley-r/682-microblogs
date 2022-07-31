@@ -1,0 +1,18 @@
+{
+    "endpoint": {
+        "getAll": "https://prod-17.northeurope.logic.azure.com/workflows/dc270feeb34a4d74af24648ddc4bf976/triggers/manual/paths/invoke/rest/v1/assets?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=TfkGTJekKleCOtNR0A2cGAGa2lp3sugSjZ8oZZjyUzQ",
+        "createPost": "https://prod-15.northeurope.logic.azure.com/workflows/ffca8f2c245d4e56861feb67aa532a79/triggers/manual/paths/invoke/rest/v1/assets?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8l4j0XsFKDC9k5oAwes-ZX4P_tdwiBSUSqArhBXyKl8",
+        "deletePost": "https://prod-41.northeurope.logic.azure.com/workflows/0a3ae2d161e94c97ab65b30e0c986822/triggers/manual/paths/invoke/rest/v1/assets/{id}?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=W7S8B5YfXhOjBJh5UG8N_w4TmtWx5b9inZ_kdze0Vvg",
+        "getPost": "https://prod-01.northeurope.logic.azure.com/workflows/24294d8318164a41b3964b762cff699d/triggers/manual/paths/invoke/rest/v1/assets/{id}?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=AXDuH58o-ajU9JKIK1Blq0V0WrDq2z6ODz9C0tiGJaI",
+        "updatePost": "https://prod-07.northeurope.logic.azure.com/workflows/ccc288b966734bc8b3e921fca39ee93d/triggers/manual/paths/invoke/rest/v1/assets/{id}?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=xjUQfH-KLEKa7D-HiqY5OrlBPRpkxdu3flm-cKRGvvg",
+        "createPostLike": "https://prod-40.northeurope.logic.azure.com/workflows/2ee64123667f45d3b60accaaae7ac55c/triggers/manual/paths/invoke/rest/v1/likes/{id}?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=AG1zVQ90VFL24yu-T1BfK46I_Yvvw0Ssrj_HFXQe1cw",
+        "getPostLikes": "https://prod-04.northeurope.logic.azure.com/workflows/ed0717be93cd4de1870595d0bfda5ce7/triggers/manual/paths/invoke/rest/v1/likes/{id}?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=mUvfKvJXVkM08JHdPFJE8GbWSZnfh5g_XWe787nBWxM",
+        "createPostComment": "https://prod-22.northeurope.logic.azure.com/workflows/ca246b853fea4be594ceef17cd8ff6a6/triggers/manual/paths/invoke/rest/v1/comments/{id}?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=953zgXe3dI54MyBgx67_OIYTlSTGGjzSo1PwiDLr9nc",
+        "getPostComments": "https://prod-45.northeurope.logic.azure.com/workflows/ef56db3b659f43f2bf815e4135b7cbea/triggers/manual/paths/invoke/rest/v1/comments/{id}?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=hVtLSGPQ0HwmJno2SL6PGcQ8gKXPgJ3Owt77uceC32w",
+        "isPostLiked": "https://prod-53.northeurope.logic.azure.com/workflows/7dfe0eb1dba34db29bcfc7d537fe657e/triggers/manual/paths/invoke/rest/v1/like?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=b8udKsRzYVjvhQlVcTDPVxXTwU7Zp-qP-2G9PVTuiJo",
+        "removePostLike": "https://prod-25.northeurope.logic.azure.com/workflows/3fb849440b834073b95c889459abfedc/triggers/manual/paths/invoke/rest/v1/likes/{id}?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=JbJlImPeDdPYgAvMG6_vEBkgXkrasObRu1pEeh3OjtY",
+        "getPostSentiment": "https://prod-45.northeurope.logic.azure.com/workflows/f613a90a02544ff49b3f907198fc6efd/triggers/manual/paths/invoke/rest/v1/assets/sentiment?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=CFfkk_eHagnaiDaVeWwOpW72m96cK6iZ7IQVs6jlb7U",
+        "getPostImageAnalytics" : "https://prod-10.northeurope.logic.azure.com/workflows/b01c396c0d954e52ae46ae13af28a298/triggers/manual/paths/invoke/rest/v1/assets/images?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=TbDMcHU164vX59r6mUo8UjYs3KfDhDaGnHuoaoEphPc"
+    
+    }
+}
