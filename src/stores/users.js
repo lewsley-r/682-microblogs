@@ -10,19 +10,18 @@ export const useUserStore = defineStore('users', {
         }
     },
     actions: {
-        async getToken() {
-            await axios.post('https://dev-d68s3iwj.eu.auth0.com/oauth/token', {
+        getToken() {
+            axios.post('https://dev-d68s3iwj.eu.auth0.com/oauth/token', {
                 "client_id": "GuQN6NppqOixC0PmVw06nI8Ck6kvtvJK",
                 "client_secret": "3UnxL25EuvZ6ZUYBCtPTgQM7R6hznGoNXqeSV9ojPKIUgPhgqo-RUk095JkNbA92",
                 "audience": "https://dev-d68s3iwj.eu.auth0.com/api/v2/", "grant_type": "client_credentials"
             },
                 {
                     headers: {
-                        'content-type': 'application/json',
+                        'content-type': 'application/json'
                     }
                 })
                 .then(function (response) {
-                    console.log(response)
                     localStorage.setItem('token', response.data.access_token);
                 })
                 .catch(function (error) {
@@ -36,7 +35,6 @@ export const useUserStore = defineStore('users', {
                 authorization: `Bearer ${localStorage.getItem('token')}`
             }})
             .then(function (response) {
-                console.log(response)
                 if (response.data[0]){
                     this.currentRole = response.data[0].name
                 }
