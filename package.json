@@ -24,7 +24,8 @@
     "vue": "^3.2.37",
     "vue-router": "^4.1.0",
     "vue3-highlightjs": "^1.0.5",
-    "vuikit": "^0.8.10"
+    "vuikit": "^0.8.10",
+    "webpack": "^4.46.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.18.0",
