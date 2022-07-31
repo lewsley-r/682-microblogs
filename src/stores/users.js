@@ -10,8 +10,8 @@ export const useUserStore = defineStore('users', {
         }
     },
     actions: {
-        getToken() {
-            axios.post('https://dev-d68s3iwj.eu.auth0.com/oauth/token', {
+        async getToken() {
+            await axios.post('https://dev-d68s3iwj.eu.auth0.com/oauth/token', {
                 "client_id": "GuQN6NppqOixC0PmVw06nI8Ck6kvtvJK",
                 "client_secret": "3UnxL25EuvZ6ZUYBCtPTgQM7R6hznGoNXqeSV9ojPKIUgPhgqo-RUk095JkNbA92",
                 "audience": "https://dev-d68s3iwj.eu.auth0.com/api/v2/", "grant_type": "client_credentials"
