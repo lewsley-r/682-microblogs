@@ -123,7 +123,7 @@ export default {
       })
       var post;
       for (post in this.postsStore.posts){
-        if(this.postsStore.posts[post].NameOfOwner.includes(this.searchQuery)){
+        if(this.postsStore.posts[post].NameOfOWner.includes(this.searchQuery)){
           this.postsStore.$patch((state) => {
             state.filterPosts.push(this.postsStore.posts[post])
           })
