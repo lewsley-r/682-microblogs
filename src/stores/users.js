@@ -19,7 +19,6 @@ export const useUserStore = defineStore('users', {
                 {
                     headers: {
                         'content-type': 'application/json',
-                        'Access-Control-Allow-Origin': '*'
                     }
                 })
                 .then(function (response) {
