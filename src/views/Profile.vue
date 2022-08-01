@@ -25,7 +25,6 @@
    
   </div>
   <div class="uk-child-width-expand@s uk-text-center" uk-grid>
-     
       <div>
           <div class="uk-card uk-card-default uk-card-body">
             <div class="row align-items-center profile-header">
@@ -42,16 +41,6 @@
               </div>
           </div>
           </div>
-      </div>
-      <div>
-        <div class="">
-          <div class="js-upload" uk-form-custom>
-                    <input type="file" multiple>
-                    <button class="uk-button uk-button-default uk-button-primary" accept="image/png, image/gif, image/jpeg" type="button" tabindex="-1">
-                      Change Profile Photo
-                    </button>
-                </div>
-        </div>
       </div>
    
   </div>
